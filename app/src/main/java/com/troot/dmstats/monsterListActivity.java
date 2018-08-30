@@ -1,15 +1,15 @@
 package com.troot.dmstats;
 
 import android.content.Intent;
-import android.support.v7.app.AlertController;
+//import android.support.v7.app.AlertController;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
-import java.util.List;
+//import java.util.List;
 
-import com.troot.dmstats.monsterXMLParser;
+//import com.troot.dmstats.monsterXMLParser;
 
 public class monsterListActivity extends AppCompatActivity {
 
@@ -22,7 +22,7 @@ public class monsterListActivity extends AppCompatActivity {
     RecyclerView.LayoutManager layoutManager = new GridLayoutManager(getApplicationContext(),1);
     recyclerView.setLayoutManager(layoutManager);
 
-    //String test = .monsterXMLParser();
+    //String test     implementation 'com.android.support:recyclerview-v7:28.0.0-rc01'= .monsterXMLParser();
     monsterXMLParser xmlFile = new monsterXMLParser(); // Need to capitalize to MonsterXMLParser
 
 
