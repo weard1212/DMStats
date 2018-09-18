@@ -1,7 +1,5 @@
 package com.troot.dmstats;
 
-import java.util.ArrayList;
-
 public class AbstractModel {
 
     private String title;
